@@ -49,5 +49,8 @@ function generate() {
 
     document.getElementById("output").innerHTML = madlib;
     addClassToElement("container", "generated");
+
+    document.getElementById("output").scrollIntoView({ behavior: 'smooth' });
+  
   
 }
