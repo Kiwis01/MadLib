@@ -51,6 +51,7 @@ function generate() {
     addClassToElement("container", "generated");
 
     document.getElementById("output").scrollIntoView({ behavior: 'smooth' });
-  
+
+    
   
 }

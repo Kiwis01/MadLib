@@ -126,3 +126,14 @@ button {
 button:hover {
     background-color: rgb(0,180,0);
 }
+
+@media only screen and (max-width: 768px) {
+  /* Example adjustments, customize as needed */
+  body {
+    font-size: 16px;
+  }
+
+  input {
+    width: 80%;
+  }
+}
